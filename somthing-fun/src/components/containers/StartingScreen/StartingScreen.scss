@@ -1,0 +1,31 @@
+.StartingScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color3);
+    padding: 2em 0;
+    margin-top: 25vh;
+    width: 80%;
+    border-radius: 25px;
+    gap: 0.5em;
+
+    hr{
+        width: 100%;
+    }
+
+    &_player {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        input[type=text] {
+            margin: 1em;
+            border-radius: 4px;
+        }
+    }
+
+    &_err{
+        color: var(--color1);
+    }
+
+}

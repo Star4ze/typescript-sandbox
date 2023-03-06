@@ -3,7 +3,7 @@ import AddToDo from './AddToDo/AddToDo';
 import './App.css';
 import ShowToDo from './ShowToDo/ShowToDo';
 
-type todo = { task: string, date: string, prio: number }; //put in aniother file  namining convention is capital
+ //put in aniother file  namining convention is capital
 
 function App() {
   const [todos, setTodos] = useState<todo[]>([]);
